@@ -40,4 +40,9 @@ public class StudentController {
 		return studentServices.getStudent();
 	}
 
+	@GetMapping("/delete")
+	public ResponseEntity<?> delete(){
+		
+	}
+
 }
